@@ -8,7 +8,7 @@ topics covered:\
 :white_check_mark: [Multer](https://www.npmjs.com/package/multer)
 
 ## :framed_picture: Screenshots
-![screenshot 1](https://github.com/Noriuki/direct-mail-app/blob/master/screenshot-1.png)
+![screenshot 1](https://github.com/Noriuki/direct-mail-app/blob/main/screenshot-1.png)
 
 ## :wrench: Development setup
 
