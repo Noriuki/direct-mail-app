@@ -18,12 +18,6 @@ install dependencies
 yarn install
 `
 
-Run Migrations
-
-`
-yarn typeorm migration:run
-`
-
 Run App
 
 `
