@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header><h1>Direct Mail App</h1></header>
+    <div class="container">
+      <div class="logo">
+        <img
+          src="./email.svg"
+          alt="logo"
+          width="50%"
+          height="50%"
+          style="margin: auto"
+        />
+      </div>
+      <form class="form" action="/" method="post" enctype="multipart/form-data">
+        <input required type="text" name="subject" placeholder="subject" />
+        <textarea
+          required
+          name="message"
+          placeholder="Your Message..."
+          style="height: 200px"
+        ></textarea>
+        <label for="file" id="upload">attachment</label>
+        <input
+          type="file"
+          name="file"
+          id="file"
+          onchange=" alert('file uploaded')"
+        />
+        <button type="submit">Send Emails</button>
+      </form>
+    </div>
+  </body>
+</html>
