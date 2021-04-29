@@ -1,6 +1,8 @@
 # direct-mail-app
 > Simple Project created for direct-email sending using nodemailer and multer (for file upload).
 
+* Probably the emails will get identify like spam! ( sending emails in a short interval ).
+
 topics covered:\
 :white_check_mark: [Node.js](https://nodejs.org/)\
 :white_check_mark: [ExpressJS](https://expressjs.com/)\
